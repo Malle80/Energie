@@ -5,7 +5,7 @@ declare(strict_types=1);
 eval('declare(strict_types=1);namespace Energierechner {?>' . file_get_contents(__DIR__ . '/../libs/vendor/SymconModulHelper/VariableProfileHelper.php') . '}');
 eval('declare(strict_types=1);namespace Energierechner {?>' . file_get_contents(__DIR__ . '/../libs/vendor/SymconModulHelper/DebugHelper.php') . '}');
 
-    class Energierechner extends IPSModule
+    class Energierechner1 extends IPSModule
     {
         use \Energierechner\DebugHelper;
         use \Energierechner\VariableProfileHelper;
